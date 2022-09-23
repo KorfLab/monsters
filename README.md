@@ -1,2 +1,16 @@
-# monsters
-Sources, data, and figures for Zhang &amp; Korf 2022
+monsters
+========
+
+Sources, data, and figures for Zhang & Korf 2022
+
+Overview
+--------
+
+
+Manifest
+--------
+
+
+Tutorial
+--------
+
