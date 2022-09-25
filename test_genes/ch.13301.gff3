@@ -1,0 +1,29 @@
+ch.13301	RNASeq_reads	transcript_region	261	377	17.0	.	.	
+ch.13301	RNASeq_stranded	transcript_region	282	344	1.0	+	.	
+ch.13301	WormBase	CDS	261	297	.	+	.	ID=CDS:T24A6.17;Parent=Transcript:T24A6.17.1
+ch.13301	WormBase	exon	261	297	.	+	.	Parent=Transcript:T24A6.17.1
+ch.13301	WormBase	gene	102	297	.	+	.	ID=Gene:WBGene00020754
+ch.13301	WormBase	mRNA	102	297	.	+	.	ID=Transcript:T24A6.17.1;Parent=Gene:WBGene00020754
+ch.13301	RNASeq_splice	intron	215	291	9.0	+	.	
+ch.13301	RNASeq_stranded	transcript_region	281	281	2.0	-	.	
+ch.13301	RNASeq_stranded	transcript_region	280	280	1.0	-	.	
+ch.13301	RNASeq_stranded	transcript_region	261	279	2.0	+	.	
+ch.13301	WormBase	intron	215	260	.	+	.	Parent=Transcript:T24A6.17.1
+ch.13301	RNASeq_reads	transcript_region	215	260	1.0	.	.	
+ch.13301	RNASeq_splice	intron	215	260	137382.0	+	.	
+ch.13301	RNASeq_splice	intron	209	260	25.0	+	.	
+ch.13301	RNASeq_splice	intron	198	260	985.0	+	.	
+ch.13301	RNASeq_splice	intron	79	260	18.0	+	.	
+ch.13301	RNASeq_stranded	transcript_region	197	214	2.0	+	.	
+ch.13301	RNASeq_reads	transcript_region	150	214	24.0	.	.	
+ch.13301	WormBase	CDS	102	214	.	+	.	ID=CDS:T24A6.17;Parent=Transcript:T24A6.17.1
+ch.13301	WormBase	exon	102	214	.	+	.	Parent=Transcript:T24A6.17.1
+ch.13301	RNASeq_stranded	transcript_region	150	196	1.0	+	.	
+ch.13301	RNASeq_reads	transcript_region	79	149	15.0	.	.	
+ch.13301	RNASeq_stranded	transcript_region	95	119	1.0	+	.	
+ch.13301	RNASeq_stranded	transcript_region	79	94	2.0	+	.	
+ch.13301	RNASeq_splice	intron	32	90	3.0	+	.	
+ch.13301	RNASeq_reads	transcript_region	78	78	1.0	.	.	
+ch.13301	RNASeq_splice	intron	32	78	69666.0	+	.	
+ch.13301	RNASeq_reads	transcript_region	32	33	2.0	.	.	
+ch.13301	RNASeq_stranded	transcript_region	22	31	2.0	+	.	
