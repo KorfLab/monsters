@@ -82,7 +82,7 @@ func complexity(mrnas []mRNA) float64 {
 func mm_cache(mm mm_model, seq string) []float64 {
 	score := make([]float64, len(seq))
 	for i := mm.k; i < len(seq)-mm.k; i++ {
-		cur_kmer := seq[i:i+mm.k]
+		cur_kmer := seq[i : i+mm.k]
 		if key, ok := mm.score[cur_kmer]; ok {
 			_ = key
 			score[i] = score[i-1] + mm.score[seq[i:i+mm.k]]
@@ -618,7 +618,7 @@ func main() {
 
 	// Find all isoforms
 	idn, seq := read_seq(*flag_fasta)
-	
+
 	iso := isoforms(seq, emin, imin, smax, gen, gff)
 	if head > iso.isoforms {
 		head = iso.isoforms

@@ -230,13 +230,17 @@ os.makedirs(f'{OUTDIR}/annotated_pep', exist_ok=True)
 if os.path.isdir(f'{OUTDIR}/selected_iso/{base_name}'):
 	if not os.path.isfile(f'{OUTDIR}/annotated_pep/{base_name}.fa'):
 		cdss = []
+		name = None
 		with open(arg.gff) as fh:
 			while True:
 				line = fh.readline()
 				if line == '': break
 				f = line.split()
 				if f[1] != 'WormBase': continue
-				if f[2] == 'CDS': cdss.append((int(f[3])-1, int(f[4])))
+				if f[2] == 'mRNA' and name == None:
+					for att in f[8].split(';'):
+						if 'ID=' in att: name = att.split('=')[1]
+				if f[2] == 'CDS' and name in f[8] : cdss.append((int(f[3])-1, int(f[4])))
 		cdss.sort()
 		orf = ''
 		for idn, seq in read_record(arg.fasta):
